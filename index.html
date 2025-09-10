@@ -1,55 +1,69 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>برنامج المعالي لمرافقة التقنية</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      direction: rtl;
-      text-align: center;
-      background: #f0f2f5;
       margin: 0;
       padding: 0;
+      background: #f0f2f5;
+      text-align: center;
     }
+
+    /* الهيدر بخلفية صورة */
     header {
-      background: #4CAF50;
+      background: url('maaliprogram.jpg') no-repeat center center;
+      background-size: cover;
+      height: 250px; /* تقدر تعدل الارتفاع */
+      display: flex;
+      justify-content: center;
+      align-items: center;
       color: white;
-      padding: 20px;
+      text-shadow: 2px 2px 5px black;
     }
+
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+
     main {
       padding: 20px;
     }
+
     footer {
       background: #333;
       color: white;
       padding: 10px;
       margin-top: 20px;
     }
+
     a {
       color: #4CAF50;
     }
   </style>
 </head>
 <body>
-   <header style="background: url('maaliprogram.jpg') no-repeat center center; background-size: cover; height: 200px; display: flex; align-items: center; justify-content: center; position: relative;">
-  <div style="background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 8px;">
-    <h1 style="color: white; margin: 0; font-size: 24px;">برنامج المعالي لمرافقة التقنية</h1>
-  </div>
-</header>
+  <!-- الهيدر -->
+  <header>
+    <h1>برنامج المعالي لمرافقة التقنية</h1>
+  </header>
 
+  <!-- المحتوى -->
+  <main>
+    <p>مرحباً بك في الموقع التجريبي!</p>
+  </main>
 
-    <main>
-        <p>مرحباً بك في الموقع التجريبي!</p>
-    </main>
-
-    <footer>
-        <p>© جميع الحقوق محفوظة 2025</p>
-    </footer>
+  <!-- الفوتر -->
+  <footer>
+    جميع الحقوق محفوظة © 2025
+  </footer>
 </body>
-
 </html>
+
+
 
 
 
