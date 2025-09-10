@@ -16,23 +16,26 @@
     header {
       background: url('maaliprogram.jpg') no-repeat center center;
       background-size: cover;
-      height: 800px; /* تقدر تعدل الارتفاع */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      text-shadow: 2px 2px 5px black;
+      height: 300px; /* تقدر تعدل الارتفاع حسب حجم الصورة */
     }
 
-    header h1 {
-      font-size: 28px;
-      margin: 0;
-    }
-
+    /* المحتوى */
     main {
       padding: 20px;
     }
 
+    main h1 {
+      font-size: 28px;
+      margin-top: 20px;
+      color: darkblue;
+    }
+
+    main p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    /* الفوتر */
     footer {
       background: #333;
       color: white;
@@ -46,13 +49,12 @@
   </style>
 </head>
 <body>
-  <!-- الهيدر -->
-  <header>
-    <h1>برنامج المعالي لمرافقة التقنية</h1>
-  </header>
+  <!-- الهيدر (صورة فقط) -->
+  <header></header>
 
-  <!-- المحتوى -->
+  <!-- المحتوى تحت الصورة -->
   <main>
+    <h1>برنامج المعالي لمرافقة التقنية</h1>
     <p>قرآن كريم مراجعة الدروس أنشطة لاصفية!</p>
   </main>
 
